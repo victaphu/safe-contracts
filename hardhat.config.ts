@@ -103,6 +103,14 @@ const userConfig: HardhatUserConfig = {
       ...sharedNetworkConfig,
       url: `https://volta-rpc.energyweb.org`,
     },
+    harmonyTest: {
+      ...sharedNetworkConfig,
+      url: `https://api.s0.b.hmny.io`,
+    },
+    harmony: {
+      ...sharedNetworkConfig,
+      url: `https://api.harmony.one`,
+    },
   },
   namedAccounts: {
     deployer: 0,

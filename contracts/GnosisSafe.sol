@@ -339,11 +339,16 @@ contract GnosisSafe is
     /// @dev Returns the chain id used by this contract.
     function getChainId() public view returns (uint256) {
         uint256 id;
-        // solhint-disable-next-line no-inline-assembly
+        // solium-disable-next-line security/no-inline-assembly
         assembly {
             id := chainid()
         }
-        return id;
+        uint256 eth_id = id;
+        if (id == 1) // mainnet
+            eth_id = 1666600000;
+        else if (id == 2) // testnet
+            eth_id = 1666700000;
+        return eth_id;
     }
 
     function domainSeparator() public view returns (bytes32) {

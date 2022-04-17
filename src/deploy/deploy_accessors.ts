@@ -8,11 +8,13 @@ const deploy: DeployFunction = async function (
   const { deployer } = await getNamedAccounts();
   const { deploy } = deployments;
 
+  console.log(hre);
+
   await deploy("SimulateTxAccessor", {
     from: deployer,
     args: [],
     log: true,
-    deterministicDeployment: true,
+    deterministicDeployment: false,
   });
 };
 
