@@ -1,0 +1,10 @@
+deploying "SimulateTxAccessor" (tx: 0x0b40a5c6503fad78ef07108729fd53b6b7b6a8e2390d5c8abefe8ada82284e3b)...: deployed at 0x80754B73fe642aE91a129AD4111F6EA85D85bEDC with 237301 gas
+deploying "GnosisSafeProxyFactory" (tx: 0xed806efbf8e15adf64ba4de1069f24c2b7f603c84a594a3e0acfe732b4369475)...: deployed at 0x5c460bA5691c2fB91B933cc779a6E6bfC6a8FCe0 with 865918 gas
+deploying "DefaultCallbackHandler" (tx: 0x9231ff0aec6838d1fec21475549a5174b0775d9a16911ffdefd58319944cd4e5)...: deployed at 0x42DA4Ff5b2EB8Ee01D8f491dd3F301F0c32e0BFa with 541390 gas
+deploying "CompatibilityFallbackHandler" (tx: 0x485e75e06d2f883510936759746472334cd2a60b83e2afba99af45cd5bced428)...: deployed at 0x6f3ac889b5a3d9e3b0646fD8503313F1dDAc6A1C with 1235752 gas
+deploying "CreateCall" (tx: 0x1ccda5fa4224714b175e87b92e07228beba1b61c63e23df031d5c5f96f58e071)...: deployed at 0x3d51EFe09Fb7c2C8654e91f860F04eCf99BD8957 with 294075 gas
+deploying "MultiSend" (tx: 0x4b7fa1b2177e16074a7bdbb07b4c165c74c146731f123030f1ceddac765919d8)...: deployed at 0xE4e69771ea16A77CAd0686bfb051124648C95F8E with 189518 gas
+deploying "MultiSendCallOnly" (tx: 0xc4c4efdedb6350c66cd643bce17bc7cc929afd3ea307d28fe576e3977468a771)...: deployed at 0xB4A26faDB81AE302Ab8BB159B03Ae062c193718B with 141745 gas
+deploying "SignMessageLib" (tx: 0x5b65865d441cd26e7591095377baae07455289f2c4f0be5507da89f2e1541190)...: deployed at 0xe264179b6cd375Ea3fD21ED79813b3e801F05Be6 with 261758 gas
+deploying "GnosisSafeL2" (tx: 0x02a635ac702236da805a0f48be99c98cfdf60c3034a6350ed2f546d3c76186c7)...: deployed at 0xA216203bc835e0372ffa1c74C587eCdfBF4Bf45f with 5276558 gas
+deploying "GnosisSafe" (tx: 0x27550f4cd43eea4cbeca06f78b873377a3985be9c9a92536b8eaf650a1134872)...: deployed at 0x82f51ED25b8A104684A53B9c9877c9E4DB599819 with 5094538 gas
